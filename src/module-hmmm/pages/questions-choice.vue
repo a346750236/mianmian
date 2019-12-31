@@ -1,7 +1,10 @@
 <template>
   <div class="dashboard-container">
     <div class="app-container">题库-精选</div>
-    <el-card></el-card>
+    <!-- 卡片 -->
+    <el-card>
+        
+    </el-card>
   </div>
 </template>
 

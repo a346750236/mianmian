@@ -1,6 +1,6 @@
 <template>
   <div class="dashboard-container">
-    <div class="app-container">标签管理</div>
+    <div class="app-container">标签管理1</div>
   </div>
 </template>
 

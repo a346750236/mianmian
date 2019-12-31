@@ -12,7 +12,7 @@ const instance = axios.create({
 // request interceptor
 instance.interceptors.request.use(
   config => {
-    console.log(config)
+    // console.log(config)
     // Do something before request is sent
     if (store.getters.token) {
       config.headers['Authorization'] = `Bearer ${getToken()}` // 让每个请求携带token-- ['X-Token']为自定义key 请根据实际情况自行修改

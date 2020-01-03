@@ -12,7 +12,7 @@ import { createAPI } from '@/utils/request'
 // 目录列表
 export const list = data => createAPI('/directorys', 'get', data)
 
-// 目录简单列表
+// 目录简单列表  目录名称和序号
 export const simple = data => createAPI('/directorys/simple', 'get', data)
 
 // 目录详情
